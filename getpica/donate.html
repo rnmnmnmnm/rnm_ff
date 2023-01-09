@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>援助嗶咔</title>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: #eceff1;
+    }
+
+    img {
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+    }
+
+    .button-holder {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .title {
+      color: #4b636e;
+      font-size: 80px;
+      font-weight: 100;
+      text-shadow: 0px 3px 0px #cfd8dc,
+        0px 4px 10px rgba(0, 0, 0, 0.15),
+        0px 4px 2px rgba(0, 0, 0, 0.1),
+        0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .coin-rows {
+      background-color: rgba(255, 255, 255, .5);
+      padding: 10px;
+    }
+
+    .coin-row {
+      margin: 10px 0;
+    }
+
+    .coin-title {
+      font-size: 18px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+    }
+
+    .coin-title img {
+      width: 20px;
+      margin-right: 5px;
+    }
+
+    .coin-title span {
+      display: inline-block;
+      width: 60px;
+    }
+
+    .copy {
+      background-color: #cfd8dc;
+      border-radius: 10px;
+    }
+
+    .patreon-holder {
+      margin: 20px 0;
+    }
+
+    .patreon-button {
+      background: rgb(232, 91, 70);
+      text-decoration: none;
+      padding: 10px 15px;
+      border-radius: 20px;
+      color: #ffffff;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="button-holder">
+    <div class="title">援助嗶咔</div>
+    <div>
+      如果你是學生千萬不要援助嗶咔！留點錢於學習上啊！
+    </div>
+    <br>
+    <br>
+    <img src="../build/imgs/donate.gif" width="60%" title="口令红包" alt="口令红包">
+    <br>
+    <div class="patreon-holder">
+      <a class="patreon-button" href="mailto:donate@piccomics.xyz?subject=%E6%88%91%E8%A6%81%E5%8C%85%E9%A4%8A%E5%97%B6%E5%92%94&body=%E5%8F%A3%E4%BB%A4%E7%B4%85%E5%8C%85%E7%A2%BC=">包養嗶咔</a>
+    </div>
+  </div>
+  <div id="home_wave"></div>
+</body>
+<script src="//code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script src="../build/js/donate/notify.min.js"></script>
+<script src="../build/js/donate/three.min.js"></script>
+<script src="../build/js/donate/anaimate.js"></script>
+<script src="../build/js/donate/clipboard.min.js"></script>
+<script>
+  var clip = new ClipboardJS('.copy');
+
+  clip.on('success', function () {
+    $.notify('複製了', 'success');
+  });
+</script>
+
+</html>

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang=zh-cn>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <title>給嗶咔留言</title>
+    <meta name=keywords content="Hugo,theme,zozo">
+    <link rel="shortcut icon" href="https://picxiazai.top/build/imgs/apple-icon-57x57.png" >
+    <link rel=stylesheet type=text/css media=screen href="https://zozo.sswin.site/css/zozo.css" >
+    <script src="waline.js"></script>
+    <link rel=stylesheet href="https://unpkg.com/@waline/client@v2/dist/waline.css">
+</head>
+
+<body>
+    <div class="main animate__animated animate__fadeInDown">
+
+
+        <div class=content>
+            <footer class=footer>
+                <div class=footer_slogan><span>給嗶咔留言</span></div>
+                <p>註意留下信箱「隐藏」「以便及時得到回複」</p>
+            </footer>
+            
+            <div class=post_page>
+                <div id=waline></div>
+                <script data-cfasync="false"
+                    src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                <script>Waline.init({
+                        el: "#waline",
+                        emoji: ["//unpkg.com/@waline/emojis@1.0.1/weibo", "//unpkg.com/@waline/emojis@1.0.1/bilibili", "//unpkg.com/@waline/emojis@1.0.1/qq", "//unpkg.com/@waline/emojis@1.0.1/tieba"],
+                        serverURL: "https://waline-notion-cdr97s9hc-sswin.vercel.app"
+                    })
+                </script>
+            </div>
+        </div>
+
+    </div><a id=back_to_top href=# class=back_to_top><i class=ri-arrow-up-s-line></i></a>
+    <footer class=footer>
+        <div class=footer_slogan><span></span></div>
+    </footer>
+    <script>(function () { const e = document.createElement("link"); e.href = "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700&display=swap", e.type = "text/css", e.rel = "stylesheet", document.head.appendChild(e) })()</script>
+    <script src="https://zozo.sswin.site/js/jquery-3.5.1.min.js"></script>
+    <link href="https://zozo.sswin.site/css/fancybox.min.css" rel=stylesheet>
+    <script src="https://zozo.sswin.site/js/fancybox.min.js" ></script>
+    <script src="https://zozo.sswin.site/js/zozo.js"></script>
+</body>
+
+</html>

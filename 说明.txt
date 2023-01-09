@@ -1,0 +1,14 @@
+点击只有跳转seo界面
+判断如下：
+if (h == 13) {
+        window.location.href = "page/notice.html";
+    }
+    else if (h == 14){
+        window.location.href = "//www.google.com/search?q=site%3Apicxiazai.top";
+    }
+    else if (h == 23){
+        window.location.href = "page/notice.html";
+    }
+    else{
+        window.location.href = "//www.bing.com/search?q=site%3Apiccomics.xyz";
+    }

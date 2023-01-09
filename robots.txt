@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /page/ios.html
+Disallow: /page/android.html
