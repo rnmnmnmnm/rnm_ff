@@ -1,0 +1,60 @@
+
+#background {
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+ 
+#div1 {
+	background:#eeeeee;
+	width: 70%;
+	z-index: 1;
+	margin: 12% auto;
+	overflow: auto;
+}
+ 
+span {
+	color: rgb(122, 9, 69);
+	padding-top: 12px;
+	cursor: pointer;
+	padding-right: 15px;
+}
+ 
+#div2 {
+	background:#eeeeee;
+	margin: auto;
+	height: 300px;
+	padding: 0 20px;
+}
+ 
+#close {
+	padding: 1px;
+	background: #d7507c;
+}
+ 
+#close-button {
+	float: right;
+	font-size: 20px;
+}
+ 
+#foot {
+	padding: 5px 0;
+	text-align: center;
+	background: #d7507c;
+	color: white;
+}
+ 
+h5 {
+	margin: 10px 0;
+	color: white;
+	padding-left: 10px;
+}
+ 
+h6 {
+	margin: 0 0px;
+	padding-top: 15px;
+}
